@@ -1,0 +1,40 @@
+header{
+    /*
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(45,253,29,0.7932422969187676) 81%, rgba(252,176,69,1) 100%);
+    */
+    background: #03AED2;
+}
+
+nav{
+    /*
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%, rgba(253,187,45,1) 100%);
+    */
+    background: #68D2E8;
+}
+
+nav ul li a{
+    color: black;
+}
+
+nav ul li a:hover{
+    color: white;
+}
+
+main{
+    background: #FDDE55;
+}
+
+main article section{
+    background: #03AED2;
+}
+
+footer{
+    /*
+    color: white;
+    background: rgb(0,246,20);
+    background: linear-gradient(0deg, rgba(0,246,20,1) 20%, rgba(0,57,255,1) 100%, rgba(255,0,78,0.9108893557422969) 100%);
+    */
+    background: #FEEFAD;
+}

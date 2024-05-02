@@ -1,3 +1,27 @@
+* {
+    text-align: justify;
+}
+
+header, nav, main, footer{
+    border-radius: 10px;
+}
+
+/*Media Queries*/
+@media screen and (max-width: 768px){
+    header, nav ul, main, article{
+        display: none;
+        flex-direction: column;
+    }
+    aside{
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+    aside img{
+        align-self: flex-end;
+    };
+}
+
 /*Halaman Web*/
 body{
     width: 1024px;
@@ -11,7 +35,7 @@ header, nav ul, main, article{
 
 /*Bagian Header*/
 header{
-    height: 100px;
+    margin-bottom: 5px;
 }
 header img{
     width: 25%;
@@ -26,11 +50,13 @@ header h1{
 
 /*Bagian Nav*/
 nav{
-    height: 50px;
+    /*height: 50px;*/
     width: 100%;
     text-align: center;
+    margin-bottom: 5px;
 }
 nav ul{
+    height: 100%;
     margin: 0 50px;
     padding: 0;
     line-height: 50px;
@@ -42,20 +68,48 @@ nav ul li{
 }
 nav ul li a{
     text-decoration: none;
-    color: black;   
 }
 
 /*Bagian Main*/
+main{
+    margin-bottom: 5px;
+}
 
 /*Bagian Article*/
 article{
     flex-direction: column;
+    margin-right: 5px;
+}
+
+/*Bagian Article*/
+article section{
+    padding: 10px;
+    margin: 5px 0 5px 5px;
+    border-radius: 5px;
+}
+article section h2{
+    text-align: center;
 }
 
 /*Bagian Aside*/
+aside{
+    padding: 10px;
+    margin: 5px 0;
+}
+aside h3{
+    text-align: center;
+}
+aside tr td:first-child{
+    font-weight: bold;
+}
+aside tr td:last-child{
+    font-size: 11px;
+}
 
 /*Bagian Footer*/
 footer{
+    padding: 10px 0;
+    margin-bottom: 5px;
     width: 100%;
     text-align: center;
 }
