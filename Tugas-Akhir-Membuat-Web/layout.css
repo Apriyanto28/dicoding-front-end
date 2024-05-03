@@ -8,18 +8,25 @@ header, nav, main, footer{
 
 /*Media Queries*/
 @media screen and (max-width: 768px){
-    header, nav ul, main, article{
-        display: none;
-        flex-direction: column;
+    body{
+        margin: 0;
+        width: 100% !important;
     }
-    aside{
-        justify-content: center;
+    header, nav, aside, main, article{
         display: flex;
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
-    aside img{
-        align-self: flex-end;
-    };
+    header{
+        padding-top: 20px;
+    }
+    nav ul li#hamburger{
+        display: block !important;
+    }
+    nav#utama{
+        display: none;
+    }
 }
 
 /*Halaman Web*/
@@ -42,9 +49,11 @@ header img{
     height: 100%;
 }
 header h1{
-    line-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
     margin-left: 10px;
-    text-align: center;
     width: 100%;
 }
 
@@ -65,6 +74,9 @@ nav ul{
 nav ul li{
     margin: 0 50px;
     list-style-type: none;
+}
+nav ul li#hamburger{
+    display: none;
 }
 nav ul li a{
     text-decoration: none;
