@@ -21,10 +21,10 @@ header, nav, main, footer{
     header{
         padding-top: 20px;
     }
-    nav ul li#hamburger{
+    nav button{
         display: block !important;
     }
-    nav#utama{
+    nav ul li{
         display: none;
     }
 }
@@ -63,6 +63,15 @@ nav{
     width: 100%;
     text-align: center;
     margin-bottom: 5px;
+
+}
+nav button{
+    overflow: hidden;
+    cursor: pointer;
+    font-size: 30px;  
+    border: none;
+    outline: none;
+    display: none;
 }
 nav ul{
     height: 100%;
@@ -74,9 +83,6 @@ nav ul{
 nav ul li{
     margin: 0 50px;
     list-style-type: none;
-}
-nav ul li#hamburger{
-    display: none;
 }
 nav ul li a{
     text-decoration: none;
