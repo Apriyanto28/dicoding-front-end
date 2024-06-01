@@ -1,0 +1,50 @@
+.row{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5px;
+}
+.col{
+    background-color: black;
+    color: white;
+    margin: 0 0.167%;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    padding: 5px;
+}
+.col-1{
+    width: 8%;
+}
+.col-2{
+    width: 16.33%;
+}
+.col-3{
+    width: 24.33%;
+}
+.col-4{
+    width: 32.33%;
+}
+.col-5{
+    width: 40.33%;
+}
+.col-6{
+    width: 48.99%;
+}
+.col-7{
+    width: 57.99%;
+}
+.col-8{
+    width: 65.99%;
+}
+.col-9{
+    width: 73.99%;
+}
+.col-10{
+    width: 81.99%;
+}
+.col-11{
+    width: 89.99%;
+}
+.col-12{
+    width: 98.99%;
+}
