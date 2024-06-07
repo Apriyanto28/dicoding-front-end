@@ -1,50 +1,37 @@
-.row{
-    display: flex;
-    flex-direction: row;
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 50px;
+    width: 100%;
+    padding: 10px;
+
+    text-align: center;
+    line-height: 50px;
+
+    font-size: 30px;
     margin-bottom: 5px;
 }
-.col{
-    background-color: black;
-    color: white;
-    margin: 0 0.167%;
-    height: 60px;
-    line-height: 60px;
+main section{
+    width: 60%;
+    margin: 0 auto;
+}
+main section h2{
+    margin: 0;
     text-align: center;
-    padding: 5px;
 }
-.col-1{
-    width: 8%;
+main section form,
+main section form label{
+    display: inline-block;
 }
-.col-2{
-    width: 16.33%;
+main section form label.last{
+    display: inline-block;
+    width: 30%;
 }
-.col-3{
-    width: 24.33%;
+main section form label{
+    width: 30%;
 }
-.col-4{
-    width: 32.33%;
-}
-.col-5{
-    width: 40.33%;
-}
-.col-6{
-    width: 48.99%;
-}
-.col-7{
-    width: 57.99%;
-}
-.col-8{
-    width: 65.99%;
-}
-.col-9{
-    width: 73.99%;
-}
-.col-10{
-    width: 81.99%;
-}
-.col-11{
-    width: 89.99%;
-}
-.col-12{
-    width: 98.99%;
+main section form input{
+    width: 30%;
 }
