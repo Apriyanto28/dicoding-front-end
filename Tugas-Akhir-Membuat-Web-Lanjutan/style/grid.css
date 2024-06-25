@@ -23,3 +23,20 @@ main section h2{
     margin: 0;
     text-align: center;
 }
+main section form table tr td:first-child{
+    width: 40%;
+}
+main section form table tr td:last-child{
+    width: 60%;
+}
+main section form table tr td:last-child input,
+main section form table tr td:last-child button{
+    width: 100%;
+}
+main section form table tr td:last-child input#baca{
+    width: 60%;
+    text-align: left;
+}
+main section form table tr td:last-child{
+    text-align: left;
+}
