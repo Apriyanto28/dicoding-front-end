@@ -15,9 +15,13 @@ header{
 }
 main section{
     width: 60%;
-    margin: 0 auto;
+    margin: 5px auto;
 
     font-size: 20px;
+    padding: 10px;
+    border: 5px;
+    border-color: white;
+    border-style: groove;
 }
 main section h2{
     margin: 0;
