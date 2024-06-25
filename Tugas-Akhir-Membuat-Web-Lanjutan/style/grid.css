@@ -16,22 +16,10 @@ header{
 main section{
     width: 60%;
     margin: 0 auto;
+
+    font-size: 20px;
 }
 main section h2{
     margin: 0;
     text-align: center;
-}
-main section form,
-main section form label{
-    display: inline-block;
-}
-main section form label.last{
-    display: inline-block;
-    width: 30%;
-}
-main section form label{
-    width: 30%;
-}
-main section form input{
-    width: 30%;
 }
