@@ -15,22 +15,62 @@
 
     <!--Bagian Main-->
     <main>
-
         <!--Bagian Form Masukkan-->
         <section>
             <h2>Masukkan Buku Baru</h2>
             <form action="#">
-                <label for="judul">Judul Buku</label>
-                <input type="text" id="judul" name="judul" required> <br>
-                <label for="tulis">Penulis</label>
-                <input type="text" id="tulis" name="tulis" required> <br>
-                <label for="tahun">Tahun</label>
-                <input type="text" id="tahun" name="tahun" required> <br>
-                <label for="baca" class="last">Selesai Baca</label>
-                <input type="checkbox" id="baca" name="baca">
-                <button type="submit">
-                    Masukkan Buku ke rak Belum Selesai dibaca
-                </button>
+                <table>
+                    <tr>
+                        <td>
+                            <label for="judul">
+                                Judul Buku
+                            </label>
+                        </td>
+                        <td>
+                            <input type="text" id="judul" name="judul" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="tulis">
+                                Penulis
+                            </label>
+                        </td>
+                        <td>
+                            <input type="text" id="tulis" name="tulis" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="tahun">
+                                Tahun
+                            </label>
+                        </td>
+                        <td>
+                            <input type="text" id="tahun" name="tahun" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <label for="baca" class="last">
+                                Selesai Baca
+                                <input type="checkbox" id="baca" name="baca">
+                            </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button type="submit">
+                                Masukkan Buku ke rak Belum Selesai dibaca
+                            </button>
+                        </td>
+                        <td>
+                            <button type="reset">
+                                Menghapus
+                            </button>
+                        </td>
+                    </tr>
+                </table>
             </form>
         </section>
 
