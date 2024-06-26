@@ -17,7 +17,9 @@ main{
     padding: 2px;
     margin-bottom: 10px;
 }
-main section{
+
+/*Bagian Inputan*/
+main section#input{
     width: 60%;
     margin: 5px auto;
 
@@ -27,24 +29,24 @@ main section{
     border-color: white;
     border-style: groove;
 }
-main section h2{
+main section#input h2{
     margin: 0;
     text-align: center;
 }
-main section form table tr td:first-child{
+main section#input form table tr td:first-child{
     width: 40%;
 }
-main section form table tr td:last-child{
+main section#input form table tr td:last-child{
     width: 60%;
 }
-main section form table tr td:last-child input,
-main section form table tr td:last-child button{
+main section#input form table tr td:last-child input,
+main section#input form table tr td:last-child button{
     width: 100%;
 }
-main section form table tr td:last-child input#baca{
+main section#input form table tr td:last-child input#baca{
     width: 60%;
     text-align: left;
 }
-main section form table tr td:last-child{
+main section#input form table tr td:last-child{
     text-align: left;
 }
