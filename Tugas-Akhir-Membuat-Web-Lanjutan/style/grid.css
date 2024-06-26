@@ -13,6 +13,10 @@ header{
     font-size: 30px;
     margin-bottom: 5px;
 }
+main{
+    padding: 2px;
+    margin-bottom: 10px;
+}
 main section{
     width: 60%;
     margin: 5px auto;
