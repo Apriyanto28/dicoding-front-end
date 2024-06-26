@@ -50,3 +50,38 @@ main section#input form table tr td:last-child input#baca{
 main section#input form table tr td:last-child{
     text-align: left;
 }
+
+/*Bagian Tampilan Table*/
+
+main h2{
+    text-align: center;
+}
+
+main section#tampil{
+    width: 80%;
+    margin: 5px auto;
+    display: flex;
+    flex-direction: row;
+}
+
+main section#tampil table#belum,
+main section#tampil table#sudah{
+    width: 50%;
+    margin-right: 5px;
+}
+
+table#belum,
+table#sudah{
+    border-collapse: collapse;
+}
+table#belum caption,
+table#sudah caption{
+    font-size: 20px;
+    font-weight: bold;
+}
+table#belum tr th,
+table#belum tr td,
+table#sudah tr th,
+table#sudah tr td{
+    border: 1px solid black;
+}

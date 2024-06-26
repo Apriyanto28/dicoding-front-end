@@ -20,6 +20,7 @@
             <h2>Masukkan Buku Baru</h2>
             <form action="#">
                 <table>
+                    <!--Judul Buku-->
                     <tr>
                         <td>
                             <label for="judul">
@@ -30,6 +31,8 @@
                             <input type="text" id="judul" name="judul" required>
                         </td>
                     </tr>
+
+                    <!--Penulis-->
                     <tr>
                         <td>
                             <label for="tulis">
@@ -40,6 +43,8 @@
                             <input type="text" id="tulis" name="tulis" required>
                         </td>
                     </tr>
+
+                    <!--Tahun Terbit-->
                     <tr>
                         <td>
                             <label for="tahun">
@@ -47,9 +52,11 @@
                             </label>
                         </td>
                         <td>
-                            <input type="text" id="tahun" name="tahun" required>
+                            <input type="number" name="tahun" id="tahun" required min="1980" max="2024">
                         </td>
                     </tr>
+
+                    <!--CheckBox Baca-->
                     <tr>
                         <td colspan="2">
                             <label for="baca" class="last">
@@ -58,6 +65,8 @@
                             </label>
                         </td>
                     </tr>
+
+                    <!--Tombol Simpan-->
                     <tr>
                         <td>
                             <button type="submit">
@@ -100,8 +109,90 @@
 
         <hr>
 
-        <section>
-            
+        <h2>Tampilan Buku dalam Tabel</h2>
+
+        <!--Tampilan Buku-->
+        <section id="tampil">
+
+            <!--Tabel Belum Baca-->
+            <table id="belum">
+                <caption>Belum Dibaca</caption>
+                <tr>
+                    <th>No</th>
+                    <th>Judul Buku</th>
+                    <th>Penulis Buku</th>
+                    <th>Tahun Terbit Buku</th>
+                    <th>Aksi</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Pemrograman Komputer</td>
+                    <td>Apriyanto Halim</td>
+                    <td>2024</td>
+                    <td><a href="#">Hapus</a></td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Pemrograman Komputer</td>
+                    <td>Apriyanto Halim</td>
+                    <td>2024</td>
+                    <td><a href="#">Hapus</a></td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Pemrograman Komputer</td>
+                    <td>Apriyanto Halim</td>
+                    <td>2024</td>
+                    <td><a href="#">Hapus</a></td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Pemrograman Komputer</td>
+                    <td>Apriyanto Halim</td>
+                    <td>2024</td>
+                    <td><a href="#">Hapus</a></td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Pemrograman Komputer</td>
+                    <td>Apriyanto Halim</td>
+                    <td>2024</td>
+                    <td><a href="#">Hapus</a></td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Pemrograman Komputer</td>
+                    <td>Apriyanto Halim</td>
+                    <td>2024</td>
+                    <td><a href="#">Hapus</a></td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Pemrograman Komputer</td>
+                    <td>Apriyanto Halim</td>
+                    <td>2024</td>
+                    <td><a href="#">Hapus</a></td>
+                </tr>
+            </table>
+
+            <!--Tabel Sudah Baca-->
+            <table id="sudah">
+                <caption>Sudah Dibaca</caption>
+                <tr>
+                    <th>No</th>
+                    <th>Judul Buku</th>
+                    <th>Penulis Buku</th>
+                    <th>Tahun Terbit Buku</th>
+                    <th>Aksi</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Pemrograman Komputer</td>
+                    <td>Apriyanto Halim</td>
+                    <td>2024</td>
+                    <td><a href="#">Hapus</a></td>
+                </tr>
+            </table>
         </section>
     </main>
 </body>
